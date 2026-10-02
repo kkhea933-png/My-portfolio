@@ -1,4 +1,4 @@
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom'
+import { HashRouter, Link, Route, Routes } from 'react-router-dom'
 import Contact from './components/Contact.jsx'
 import Hero from './components/Hero.jsx'
 import Navbar from './components/Navbar.jsx'
@@ -40,13 +40,13 @@ function NotFoundPage() {
 
 function App() {
 	return (
-		<BrowserRouter>
+		<HashRouter>
 			<Routes>
 				<Route path="/" element={<HomePage />} />
 				<Route path="/skills" element={<SkillsPage />} />
 				<Route path="*" element={<NotFoundPage />} />
 			</Routes>
-		</BrowserRouter>
+		</HashRouter>
 	)
 }
 
