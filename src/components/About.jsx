@@ -46,7 +46,7 @@ export default function About() {
 
 					<div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm font-semibold">
 						<a className="inline-flex items-center gap-2 rounded-md bg-slate-800 px-4 py-2.5 text-white transition hover:bg-slate-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600" href="#contact">
-							Let’s talk <span aria-hidden="true">↗</span>
+							<span aria-hidden="true" className=" text-white">Let’s talk ↗</span>
 						</a>
 						<a className="text-(--text-soft) transition hover:text-(--text)" href="#projects">See my projects</a>
 					</div>
